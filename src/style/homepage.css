@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'SwedenSansRegular';
+    src: local(SwedenSansRegular), 
+    url(../asset/fonts/SwedenSansRegular.woff) format('woff'), 
+    url(../asset/fonts/SwedenSansRegular.woff2) format('woff2');
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;   
+}
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.main {
+    color: #ffda00;
+    font-family: SwedenSansRegular;
+}
